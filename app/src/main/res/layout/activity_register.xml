@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/coklat"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textColor="@color/putih"
+        android:text="Registrasi"
+        android:textSize="35dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/putih"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="80dp"/>
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/round_edit"
+        android:padding="20dp"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"
+        android:text="Password"
+        android:textColor="@color/putih"/>
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:padding="20dp"
+        android:background="@drawable/round_edit"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Konfirmasi Password"
+        android:textColor="@color/putih"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="80dp"/>
+
+    <EditText
+        android:layout_width="310dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="5dp"
+        android:padding="20dp"
+        android:background="@drawable/round_edit"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:text="Daftar"
+        android:background="@drawable/round_button"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>

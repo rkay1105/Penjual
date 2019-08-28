@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/coklat"
+    tools:context=".Login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="@color/putih"
+        android:text="Login"
+        android:textSize="40dp"/>
+
+    <RelativeLayout
+        android:id="@+id/layout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/txtviewlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="E-mail"
+            android:textColor="@color/putih"
+            android:layout_marginLeft="80dp"/>
+        <TextView
+            android:id="@+id/txtpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="80dp"
+            android:layout_below="@+id/edtemail"
+            android:textColor="@color/putih"
+            android:text="Password"/>
+        <EditText
+            android:id="@+id/edtemail"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/txtviewlogin"
+            android:layout_marginTop="5dp"
+            android:padding="20dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/round_edit"/>
+        <EditText
+            android:id="@+id/edtpassword"
+            android:layout_width="310dp"
+            android:layout_height="60dp"
+            android:padding="20dp"
+            android:background="@drawable/round_edit"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_below="@+id/txtpassword"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/btnmasuk"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="80dp"
+            android:background="@drawable/round_button"
+            android:text="Masuk"/>
+        <Button
+            android:id="@+id/btndaftar"
+            android:layout_width="90dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="220dp"
+            android:background="@drawable/round_button"
+            android:text="Daftar"/>
+    </RelativeLayout>
+
+</LinearLayout>
